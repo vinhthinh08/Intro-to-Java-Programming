@@ -28,7 +28,7 @@ public class Exercise_07_14 {
 		int gcd = 1;			// Initial gcd is 1
 		boolean isDivisor;	// Is number a diviser
 
-		for (int i = 2; i < min(numbers); i++) {
+		for (int i = 2; i <= min(numbers); i++) {
 			isDivisor = true;
 			for (int e: numbers) {
 				if (e % i != 0)
